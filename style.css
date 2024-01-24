@@ -1,0 +1,28 @@
+body {
+    background-color: #bce6ff;
+.glossary{
+    color: #1F51FF	;
+    background-color: white;
+    border: 50;
+    border-color: black;
+}
+.navbar-container{
+    display: flex;
+    justify-content: center;
+}
+
+.index{
+    background-color: white;
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.index{
+    background-color: lightpink
+}
+.screen3{
+    background-color:white 
+}
