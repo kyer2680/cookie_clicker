@@ -32,14 +32,13 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
 
 .screen2{
     background-color: #bce6ff;
     }
     <center>
 .score {
-    background-color: #cb8be4; /* Green */
+    background-color: #04AA6D; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -49,4 +48,5 @@ body {
     font-size: 16px;
   }
   </center>
+}
 }
