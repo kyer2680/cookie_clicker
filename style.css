@@ -23,9 +23,6 @@ body {
 .index{
     background-color: lightpink
 }
-.screen3{
-    background-color:white 
-}
 .button {
     background-color: #04AA6D; /* Green */
     border: none;
@@ -36,3 +33,20 @@ body {
     display: inline-block;
     font-size: 16px;
   }
+
+.screen2{
+    background-color: #bce6ff;
+    }
+    <center>
+.score {
+    background-color: #cb8be4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  </center>
+}
