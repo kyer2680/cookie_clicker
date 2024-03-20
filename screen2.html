@@ -16,8 +16,12 @@
 <div class="navbar-container">
         <a href="screen3.html" class="button"><li>Power Up</li></a>
         </div>
-    <div class="navbar-container">Score:</a>
+    <div class="navbar-container">Score:
+    <script>
+            var score = localStorage.getItem('score');
+        document.querySelector('.score').textContent = score;
+</script>    
+    </a>
     </div>
-    var score = 0;
 </body>
 </html>

@@ -15,11 +15,14 @@
             <a href="screen2.html" class="button"><li>See Score</li></a>
         </div>
     </center>
+    <script>
     var score = 0;
+    localStorage.setItem('score', '0');
     var cookie = document.getElementById("cookie");
     cookie.addEventListener("click", function (){
-
+    score ++;
+    localStorage.setItem('score', score);
     });
-   
+   </script>
 </body>
 </html>
